@@ -1,0 +1,5 @@
+suma 20
+usha 19
+bhavani 21
+vathsu 4
+divya 27
