@@ -10,5 +10,7 @@
 			"path": "../../suma"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "suma"
+	}
 }
