@@ -35,14 +35,24 @@
             color:darkorchid;
             font-size:2rem;
             font-weight:bold;
-            animation:fadeIn 2s;
+            animation:fadeIn  alternate 4s;
+            
+            
 
         }
+        @keyframes fadeIn{
+            from{opacity: 0;}
+            to{opacity: 2;}
+
+        }
+
+        
         .card-container{
             display:flex;
             justify-content:center;
             padding: 20px;
             flex-wrap: wrap;
+            width:100%;
 
 
         }
@@ -86,6 +96,7 @@
             color:white;
             padding:10px;
             margin-top:20px;
+            width:100%;
 
         }
         .table{
@@ -101,26 +112,18 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <nav>
-            <a href="#">  Home </a>
+    <nav>
+        <div class="navbar">
+            <a href="home.html">  Home </a>
             <a href="#"> Gallery </a>
             <a href="#"> Contact </a>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    
     <section class="hero">
         "Welcome To Our Website"
 
     </section>
-    <section>
-        <table style="width: 100%;">
-            
-
-            <tr>
-                <td>
-            
-        
-    
     <section class="card-container">
         <div class="card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNikb7ptj_YiUm1AhxIs0Hxh8mCA1avOvwg&s"style="height:200px;"alt="Image 1">
@@ -128,53 +131,27 @@
             <h2>card Title 1</h2>
             <p>Brief Explanation about this card </p>
             <button>Learn More</button>
-        </td>
-        
-
-
         </div>
-        
-    </section>
-    <section>
-        <td>
+
         <div class="card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiOQvWucBQHZiYMN7lRWBdGPEfW3tzGGbJBg&s"style="height:200px;" alt="Image 2">
             <h2>card Title 2</h2>
             <p> short Description from this card </p>
             <button>Learn More</button>
-        </td>
-
-
         </div>
-        
-    </section>
-    <section>
-        <td>
+    
         <div class="card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zQ3ZClggzueYgX5PS038haBBflIzIfXhYg&s" style="height:200px;"alt="Image 3">
             <h2>card Title 3</h2>
             <p> Explanation about this card </p>
             <button>Learn More</button>
-        </td>
-    </tr>
-
-        </div>
+            </div>
         
     </section>
-    <section>
-        <tr>
-            <td>
-        <div class="footer">
+    <div class="footer">
             @2025 project Website
 
-        </div>
-        </td>
-        </tr>
-    </table>
-    </section>
-    
-    
-
+    </div>
 
 
 
