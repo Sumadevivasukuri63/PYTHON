@@ -1,8 +1,8 @@
-def f1():
-    x=100
-    print(x)
-x=+1
-f1()
+# def f1():
+#     x=100
+#     print(x)
+# x=+1
+# f1()
 
 def san(x):
     print(x+1)
@@ -12,7 +12,7 @@ x=4
 san(12)
 
 
-def f():
+def f(x):
     x=33
     print(x)
 
@@ -22,8 +22,8 @@ print (x)
 
 
 def f():
-    x = 33
-    print(x)
+   global  x
+   print(x)
 
 f()
 x = 34
@@ -31,9 +31,9 @@ print(x)
 
 
 
-def s():
-    x=66
-    print (x)
+# def s():
+#     x=66
+#     print (x)
 
-x=99
-print(x)
+# x=99
+# print(x)
