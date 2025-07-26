@@ -8,6 +8,6 @@ for i in range(0,k):
     maximum=window_sum
 
 for i in range(k,n-1):
-    window_sum=window_sum+arr[i]-arr[i-k]
+    window_sum+=arr[i]-arr[i-k]
     maximum=max(window_sum,maximum)
 print(maximum)

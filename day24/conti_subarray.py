@@ -15,4 +15,4 @@ def checkSubarraySum(nums, k):
     return False
 nums=[23,2,6,4,7]
 k=13
-print(checkSubarraySum(nums,k))       
+print(checkSubarraySum(nums,k))        

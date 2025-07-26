@@ -1,4 +1,4 @@
-list=[1,2,3,0,5]
+list=[1,2,3,5]
 n=len(list)
 k=0
 for i in range(0,n-1):

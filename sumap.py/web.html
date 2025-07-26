@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book A Photographer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  
+
+  <!-- Header -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">📸 Book A Photographer</h1>
+    <nav class="space-x-4">
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#portfolio" class="hover:underline">Portfolio</a>
+      <a href="#booking" class="hover:underline">Book Now</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-96 text-white flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?photographer');">
+    <div class="bg-black bg-opacity-50 p-6 rounded-xl">
+      <h2 class="text-4xl font-bold mb-4">Capture Your Moments</h2>
+      <p class="text-lg">Professional photography for weddings, events, portraits, and more.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-12 px-6">
+    <h3 class="text-3xl font-bold mb-6 text-center">Our Services</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h4 class="text-xl font-semibold">Wedding Photography</h4>
+        <p class="mt-2">Capture every moment of your special day.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h4 class="text-xl font-semibold">Portrait Shoots</h4>
+        <p class="mt-2">Personal or professional portraits with style.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h4 class="text-xl font-semibold">Event Coverage</h4>
+        <p class="mt-2">Birthdays, corporate events, concerts & more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-12 px-6 bg-gray-200">
+    <h3 class="text-3xl font-bold mb-6 text-center">Portfolio</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://source.unsplash.com/300x300/?wedding" class="rounded" />
+      <img src="https://source.unsplash.com/300x300/?portrait" class="rounded" />
+      <img src="https://source.unsplash.com/300x300/?event" class="rounded" />
+      <img src="https://source.unsplash.com/300x300/?camera" class="rounded" />
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="py-12 px-6">
+    <h3 class="text-3xl font-bold mb-6 text-center">Book a Session</h3>
+    <form class="max-w-xl mx-auto bg-white p-6 rounded shadow space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-2 border rounded" required />
+      <input type="email" placeholder="Your Email" class="w-full p-2 border rounded" required />
+      <input type="date" class="w-full p-2 border rounded" required />
+      <select class="w-full p-2 border rounded">
+        <option>Select Service</option>
+        <option>Wedding Photography</option>
+        <option>Portrait Shoot</option>
+        <option>Event Coverage</option>
+      </select>
+      <textarea placeholder="Additional Details..." class="w-full p-2 border rounded" rows="4"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6 bg-blue-600 text-white">
+    <h3 class="text-3xl font-bold mb-6 text-center">Get in Touch</h3>
+    <div class="text-center">
+      <p>Email: info@photobooking.com</p>
+      <p>Phone: +91 98765 43210</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    © 2025 Book A Photographer. All rights reserved.
+  </footer>
+</body>
+</html>
